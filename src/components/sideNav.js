@@ -16,7 +16,7 @@ function SideNavbar() {
 
     return (
         <div className="sidenav">
-            <div className="logo"><img src="/Assets/Images/logo.svg" alt="logo" /><p>TermMonitor</p></div>
+            <div className="logo mx-auto"><img src="/Assets/Images/logo.svg" alt="logo" /><p>TermMonitor</p></div>
             <a href="#" className="active"><i class="fas fa-home"></i>Add Keywords</a>
             <a href="#"><i class="fas fa-user-friends"></i>Matches</a>
             <a href="#"><i class="fas fa-folder"></i>Manage Sources</a>

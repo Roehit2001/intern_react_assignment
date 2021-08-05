@@ -50,6 +50,9 @@ function Addkeyword() {
 
                 </table>
             </div>
+            <div className="viewResults ">
+                <button>view Results</button>
+            </div>
         </div>
 
 
