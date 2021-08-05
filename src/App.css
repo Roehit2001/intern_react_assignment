@@ -1,0 +1,366 @@
+body{
+  background: #E5E5E5;
+}
+.sidenav {
+  height: 100%;
+  width: 15%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden; 
+}
+.sidenav p{font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.5321px;
+  line-height: 38px;
+  padding-top: 26px;
+  color: #3F0E40;
+}
+.sidenav a {
+  min-height:45px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 157%;
+display: flex;
+align-items: center;
+letter-spacing: 0.1px;
+color: rgba(0, 0, 0, 0.54);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.sidenav .logo img{
+  max-width: 52.6px;
+}
+.sidenav i{
+  padding-left: 20px;
+  padding-right: 26px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #3f0e40;
+  text-decoration: none;
+}
+.sidenav .active{
+  color: #f1f1f1;
+  background-color: #3f0e40;
+}
+.dropdown-btn i{
+  padding-left: 10px;
+  padding-right: 26px;
+}
+.dropdown-btn {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.dropdown-btn {
+  min-height:45px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5%;
+}
+.dropdown-container {
+  display: none;
+  background-color: transparent;
+}
+.dropdown-container a{
+  padding-left: 30px;
+}
+.dropdown-btn .fa-caret-down {
+  float: right;
+  padding-right: 8px;
+  padding-left: 25%;
+}
+.logo{
+  display: flex;
+  height: 90px;
+}
+.logo p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 25.5321px;
+line-height: 38px;
+display: inline;
+color: #3F0E40;
+}
+.form-control{
+  border: none;
+  width: unset;
+}
+.form-inline .form-control {
+  display: inline-block;
+  width: unset;
+  vertical-align: middle;
+}
+.topnav {
+  background: linear-gradient(0deg, #3F0E40, #3F0E40), #2196F3;
+/* Shadow / 4 */
+
+box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  width: 100%;
+  height: 90px;
+  padding: 1.5%;
+  /* padding-top: 0; */
+}
+.Addkeyword {
+  padding: 5%;
+}
+.topnav a {
+
+  float: left;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 175%;
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+text-decoration: none;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.r8{
+  float: right;display: flex;margin-top: 0.5%;
+}
+.r8 button{
+  display: inline;
+}
+.topnav input{
+  width: 250px !important;
+}
+.user{
+  border-radius: 50%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+background: #F8F8F8;
+display: inline;
+height: 37px;
+width: 37px;
+color: #3F0E40;
+text-align: center;
+vertical-align: middle;
+padding: 5px;
+}
+.topnav form{
+  background: #F8F8F8;
+border-radius: 7.63736px;
+margin-right: 23px;
+min-width: 350px;
+
+}
+.topnav{
+  border: none;
+}
+.topnav button{
+  border: none;
+  background-color: transparent;
+  width: 100px;
+  
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: none;
+}
+.content_area{
+  width: 85%;
+  margin-left: 15%;
+}
+.Loading .iframe{
+  width:100%;height:0;padding-bottom:100%;position:relative;
+}
+.iframe iframe{
+  position: absolute;
+}
+table{
+  text-align: center;
+}
+th{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+}
+td{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 143%;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+}
+.heading{
+  display: inline-block;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 175%;
+
+letter-spacing: 0.15px;
+
+color: #000000;
+}
+.subheading{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 175%;
+display: inline;
+float: right;
+letter-spacing: 0.15px;
+
+color: #000000;
+}
+.boxed{
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+padding: 2px 10px;background: #3F0E40;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 26px;
+display: inline-block;
+letter-spacing: 0.46px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.caps{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 26px;
+display: inline;
+
+letter-spacing: 0.46px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.searchbox{
+  min-height: 85px;
+  background-color: #FFFFFF;
+  width: 100%;
+  /* display: inline; */
+  padding-top: 17.5px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.searchbox ::-webkit-input-placeholder{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 143%;
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+}
+.searchbox input{
+  border: none;
+  background-color: transparent;
+  width: 70%;
+  display: inline;
+  min-height: 50.75px;
+  padding:1%;
+  margin-right: 5%;
+}
+.searchbox i{width: 5%;}
+.searchbox button{
+background: #3F0E40;
+border-radius: 8px;
+width: 20%;
+display: inline;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.4px;
+text-transform: uppercase;
+color: #FEFEFE;
+min-height: 50.75px;
+min-width: 185.35px;
+}
+.results{
+  margin-top: 97px;
+}
+.results table{
+  background: #FFFFFF;
+box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+td button {
+  background: #C4C4C4;width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+}
+.keyword_head{
+  width: 31.87%;
+  text-align: left;
+  
+}
+.goal_head{
+  width: 16.49%;
+}
+.match_head{
+  width: 15%;
+}
+.search_head{
+  width: 17.5%;
+}
+.delete_head{
+  width: 19.12%;
+}
+.keyword_col1 {
+  text-align: left;
+  padding-left: 4rem !important;
+}
+td i{
+  float: right;
+  padding-right: 35%;
+}
